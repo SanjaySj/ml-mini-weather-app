@@ -13,13 +13,13 @@ export class WeatherService {
   constructor(private httpClient: HttpClient, private adapter: WeatherAdapterService) { }
 
   searchWeatherInfoBasedOnCity(city: string): Observable<any> {
-    const APPID = '080fac476eef2dc83a134cf4f93692f1';
+    const APPID = ''; // 080fac476eef2dc83a134cf4f93692f1
     const url = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=' + APPID + '&units=metric';
     return this.httpClient.get(url).pipe(map(response => this.adapter.adapt(response)), catchError(this.errorHandler));
   }
 
   searchWeatherInfoForMultipleCities(ids: string): Observable<any> {
-    const APPID = '080fac476eef2dc83a134cf4f93692f1';
+    const APPID = ''; // 080fac476eef2dc83a134cf4f93692f1
     const url = 'https://api.openweathermap.org/data/2.5/group?id=' + ids + '&APPID=' + APPID + '&units=metric';
     return this.httpClient.get(url).pipe(map(response => this.adapter.adaptList(response)), catchError(this.errorHandler));
   }

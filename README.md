@@ -4,4 +4,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Live Demo
 
-[Firebase Deploy With PWA](https://ml-mini-weather-app.web.app)  |  [Github Pages](https://sanjaysj.github.io/ml-mini-weather-app)
+[Demo](https://ml-mini-weather-app.web.app)
