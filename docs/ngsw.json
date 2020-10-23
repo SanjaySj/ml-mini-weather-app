@@ -1,0 +1,98 @@
+{
+  "configVersion": 1,
+  "timestamp": 1603451773481,
+  "index": "https://sanjaysj.github.io/ml-mini-weather-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://sanjaysj.github.io/ml-mini-weather-app/5-es2015.ba989bd8bc48fa1887bd.js",
+        "https://sanjaysj.github.io/ml-mini-weather-app/5-es5.ba989bd8bc48fa1887bd.js",
+        "https://sanjaysj.github.io/ml-mini-weather-app/favicon.ico",
+        "https://sanjaysj.github.io/ml-mini-weather-app/index.html",
+        "https://sanjaysj.github.io/ml-mini-weather-app/main-es2015.228504fbe7b6c931258d.js",
+        "https://sanjaysj.github.io/ml-mini-weather-app/main-es5.228504fbe7b6c931258d.js",
+        "https://sanjaysj.github.io/ml-mini-weather-app/manifest.webmanifest",
+        "https://sanjaysj.github.io/ml-mini-weather-app/polyfills-es2015.f332a089ad1600448873.js",
+        "https://sanjaysj.github.io/ml-mini-weather-app/polyfills-es5.177e85a9724683782539.js",
+        "https://sanjaysj.github.io/ml-mini-weather-app/runtime-es2015.753f5c95437eb31b35f5.js",
+        "https://sanjaysj.github.io/ml-mini-weather-app/runtime-es5.753f5c95437eb31b35f5.js",
+        "https://sanjaysj.github.io/ml-mini-weather-app/scripts.635b089f2595e00bdd1e.js",
+        "https://sanjaysj.github.io/ml-mini-weather-app/styles.201ed29feeecd280706e.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-128x128.png",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-144x144.png",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-152x152.png",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-192x192.png",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-384x384.png",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-512x512.png",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-72x72.png",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-96x96.png",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/images/add.svg",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/images/cloud.svg",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/images/edit.svg",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/images/sun.svg",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/js/Angular_Covid cities assignment.pdf",
+        "https://sanjaysj.github.io/ml-mini-weather-app/assets/js/fontawesome-all.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://sanjaysj.github.io/ml-mini-weather-app/5-es2015.ba989bd8bc48fa1887bd.js": "8960203ddfcae781ef2aefc6c1cd004931e6fe99",
+    "https://sanjaysj.github.io/ml-mini-weather-app/5-es5.ba989bd8bc48fa1887bd.js": "a48d49c14166abfde3ce7caab987270914bda19a",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/images/add.svg": "99fd8ba4191a3887841f0a1c256e635566ef8f12",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/images/cloud.svg": "10e9ea60751c07238107a300d96b3726bbf4bb60",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/images/edit.svg": "0aa7d8be77b21a184aa904e1ce5d702915e3fe9d",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/images/sun.svg": "b78f6a7371f0321687a6a0ddad5e3d840c167d9a",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/js/Angular_Covid cities assignment.pdf": "610ba1a989fb48344480d10fdd7aabe43204c9df",
+    "https://sanjaysj.github.io/ml-mini-weather-app/assets/js/fontawesome-all.js": "4aee4bf998de1219afd3236b83045ab609e7c078",
+    "https://sanjaysj.github.io/ml-mini-weather-app/favicon.ico": "7d5669b6e7988ec372329923526196dcde2abed3",
+    "https://sanjaysj.github.io/ml-mini-weather-app/index.html": "8c85eb27649fdc663ad88af9bcfbd08d484ef998",
+    "https://sanjaysj.github.io/ml-mini-weather-app/main-es2015.228504fbe7b6c931258d.js": "653bef10f6b59143e253e776db4ee9fc06dce037",
+    "https://sanjaysj.github.io/ml-mini-weather-app/main-es5.228504fbe7b6c931258d.js": "70bfbc01b1c88566afe2c9124d67834bb5a6ef5b",
+    "https://sanjaysj.github.io/ml-mini-weather-app/manifest.webmanifest": "64af2eb70a190e4f3944b9ecd3677a894cfa1ef0",
+    "https://sanjaysj.github.io/ml-mini-weather-app/polyfills-es2015.f332a089ad1600448873.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "https://sanjaysj.github.io/ml-mini-weather-app/polyfills-es5.177e85a9724683782539.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "https://sanjaysj.github.io/ml-mini-weather-app/runtime-es2015.753f5c95437eb31b35f5.js": "4d79edb899608daae97b6ebec21c180ece8fdb9a",
+    "https://sanjaysj.github.io/ml-mini-weather-app/runtime-es5.753f5c95437eb31b35f5.js": "98b6e8dc0f7e735253114f9a6c58951806f6fed7",
+    "https://sanjaysj.github.io/ml-mini-weather-app/scripts.635b089f2595e00bdd1e.js": "a14a6b0f5db91587ba6abef2e4299f82fb00877b",
+    "https://sanjaysj.github.io/ml-mini-weather-app/styles.201ed29feeecd280706e.css": "451fb68196202f696021a3f3be297f878d526739"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
