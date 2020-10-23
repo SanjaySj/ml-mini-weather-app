@@ -1,0 +1,76 @@
+ <div class="album py-5 bg-light">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-4" *ngFor="let eachCard of cardList; let i = index">
+         <div *ngIf="eachCard.showWeather; else editWeather">
+           <div class="card mb-4 shadow-sm">
+             <div [ngClass]="(eachCard.isDay) ? 'weather-card-lg' : 'weather-card-bg'">
+               <div class="mynav">
+                 <a class="custom-edit-icon" (click)="editCity(i)">
+                   <img class="edit-right" src="assets/images/edit.svg" width="20" height="20">
+                 </a>
+               </div>
+               <div *ngIf="eachCard.isDay && eachCard.title == 'Clouds'" class="weatherCardRow">
+                 <i class="fas fa-3x fa-sun sun"></i>
+               </div>
+               <div *ngIf="!eachCard.isDay && eachCard.title == 'Clouds'" class="weatherCardRow">
+                 <i class="fas fa-3x fa-moon moon"></i>
+               </div>
+               <div *ngIf="eachCard.title == 'Rain' 
+               || eachCard.title == 'Drizzle' || eachCard.title == 'Thunderstorm'" class="weatherCardRow rainDiv">
+                 <i class="fas fa-3x fa-cloud-showers-heavy rain"></i>
+               </div>
+               <div *ngIf="eachCard.title == 'Snow'" class="weatherCardRow">
+                 <i class="fas fa-3x fa-snowflake"></i>
+               </div>
+               <div *ngIf="eachCard.title == 'Mist' 
+                || eachCard.title == 'Haze' || eachCard.title == 'Fog'
+                || eachCard.title == 'Smoke'" class="weatherCardRow">
+                 <i class="fas fa-3x fa-smog"></i>
+               </div>
+               <div *ngIf="eachCard.title == 'Clouds'" class="weatherCardRow cloudDiv">
+                 <i class="fas fa-cloud fa-3x cloud"></i>
+               </div>
+               <div class="weatherCardRow fs-36 mt-5">{{eachCard.tempValue}}°</div>
+               <div class="weatherCardRow fs-14 mt-5">{{eachCard.minTemp}}° / {{eachCard.maxTemp}}°</div>
+               <div class="weatherCardRow fs-14 mt-5">Feels Like: {{eachCard.tempFeelsLike}}°</div>
+               <div class="weatherCardRow fs-25 mt-10">{{eachCard.location}}, {{eachCard.country}}</div>
+               <div style="letter-spacing: 0.1em; margin: 20px auto;" class="weatherCardRow fs-14">
+                 {{eachCard.title}} | Humidity: {{eachCard.humidity}}%</div>
+               <div style="margin: 15px;"></div>
+               <!-- <div class="row weather-start-end-time">
+                 <div class="col-6 col-md-6">Sunrise</div>
+                 <div class="col-6 col-md-6">Sunset</div>
+               </div>
+               <div class="row weather-start-end-time">
+                 <div class="col-6 col-md-6">{{eachCard.sunriseTime}}</div>
+                 <div class="col-6 col-md-6">{{eachCard.sunsetTime}}</div>
+               </div>
+               <div style="margin: 15px;"></div> -->
+             </div>
+           </div>
+         </div>
+         <ng-template #editWeather>
+           <div class="card mb-4 shadow-sm">
+             <svg class="bd-placeholder-img card-img-top" width="100%" height="400px" xmlns="http://www.w3.org/2000/svg"
+               preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+               <title>Hover Here to Add a City</title>
+               <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Add a
+                 City</text>
+             </svg>
+             <div class="overlay" (mouseenter)="onMouseEnter(i)" (mouseleave)="onMouseLeave(i)">
+               <div class="input-area">
+                 <input type="text" class="form-control" [(ngModel)]="eachCard.location"
+                   (ngModelChange)="textChange($event, i)" placeholder="Enter a City">
+                 <br>
+                 <div *ngIf="eachCard.errorMsg"><span style="color: white;">Error :
+                     {{eachCard.errorMsg | titlecase}}</span></div>
+               </div>
+             </div>
+           </div>
+         </ng-template>
+       </div>
+
+     </div>
+   </div>
+ </div>

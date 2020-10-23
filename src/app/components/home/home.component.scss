@@ -1,0 +1,267 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+// edits
+
+.shadow-sm:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.input-area {
+  position: absolute;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 200px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+// .weather-img {
+//   position: relative;
+//   height: 450px;
+//   width: 100%;
+//   overflow: hidden;
+//   background-size: cover !important;
+//   background-position: center center !important;
+//   text-align: center;
+
+//   &::after {
+//     content: "";
+//     height: 100%;
+//     width: 100%;
+//     display: block;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     background: rgba(0, 0, 0, 0.5);
+//   }
+
+//   .wrapper {
+//     padding: 30px;
+//     position: relative;
+//     z-index: 1;
+//   }
+
+//   .wrapper .mynav {
+//     height: 20px;
+//   }
+
+//   .wrapper .mynav .edit-right {
+//     color: #fff;
+//     font-size: 20px;
+//   }
+
+//   .wrapper .mynav .edit-right {
+//     display: inline-block;
+//     float: right;
+//   }
+
+//   .wrapper .card-title {
+//     margin-top: 20px;
+//     font-size: 35px;
+//     font-weight: 400;
+//     color: #fff;
+//   }
+
+//   .wrapper .location {
+//     margin-top: 20px;
+//     font-size: 21px;
+//     font-weight: 400;
+//     color: #fff;
+//   }
+
+//   .temp {
+//     margin-top: 20px;
+//   }
+
+//   .temp a {
+//     text-decoration: none;
+//     color: #fff;
+//   }
+
+//   .temp a .temp-type {
+//     font-size: 85px;
+//   }
+
+//   .temp .temp-value {
+//     display: inline-block;
+//     font-size: 85px;
+//     font-weight: 600;
+//     color: #fff;
+//   }
+
+//   .temp .deg {
+//     display: inline-block;
+//     font-size: 35px;
+//     font-weight: 600;
+//     color: #fff;
+//     vertical-align: top;
+//     margin-top: 10px;
+//   }
+
+//   .custom-edit-icon {
+//     cursor: pointer;
+//   }
+
+//   .mr-10 {
+//     margin-right: 10px;
+//   }
+
+//   .mt-25 {
+//     margin-top: 25px;
+//   }
+// }
+
+
+// new card
+
+.weather-card-bg {
+  display: block;
+  border-radius: 10px;
+  height: 400px;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(8, 7, 42, 1) 75%, rgb(8, 10, 63) 100%);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.weather-card-lg {
+  display: block;
+  border-radius: 10px;
+  height: 400px;
+  width: 100%;
+  background: #007bff;
+  background: -webkit-linear-gradient(to right, #007bff, #007bff);
+  background: linear-gradient(to right, #007bff, #007bff);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.weatherCardRow {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.mynav {
+  height: 20px;
+  margin-top: 50px;
+}
+
+.mynav .edit-right {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  float: right;
+  margin-right: 35px;
+}
+
+.custom-edit-icon {
+  cursor: pointer;
+}
+
+.sun {
+  margin-top: 10px;
+  color: yellow;
+  filter: drop-shadow(1px 1px 10px yellow);
+}
+
+.moon {
+  margin-top: 10px;
+  color: white;
+  filter: drop-shadow(1px 1px 10px white);
+}
+
+.cloudDiv {
+  margin-top: -40px;
+}
+
+.rainDiv {
+  margin-top: 10px;
+}
+
+.cloud {
+  color: rgb(104, 175, 197);
+  filter: drop-shadow(1px 1px 5px rgb(104, 175, 197));
+  animation-name: cloudMovement;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes cloudMovement {
+  from {
+    margin-left: -55px;
+  }
+
+  to {
+    margin-left: 65px;
+  }
+}
+
+.rain {
+  color: rgb(104, 175, 197);
+  filter: drop-shadow(1px 1px 5px rgb(104, 175, 197));
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-5 {
+  margin-top: 5px !important;
+}
+
+.weather-start-end-time {
+  font-size: 14px;
+  margin: 7px 28px;
+  text-align: center;
+}
+
+.last-updated {
+  font-size: 12px;
+  margin: 30px auto;
+}

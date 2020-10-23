@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { timer, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'weather-app';
+  showSpinner = true;
+  timerSub: Subscription;
+
+  constructor() {
+    const timerSub = timer(3000).subscribe(() => { this.showSpinner = false, timerSub.unsubscribe(); });
+  }
 }
